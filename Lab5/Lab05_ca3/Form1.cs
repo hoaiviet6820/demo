@@ -19,7 +19,7 @@ namespace Lab05_ca3
 
         private void hienDSPhieuThuePhong() {
             
-            dgvPhieuThu.DataSource = dsPhieuThue;
+            dgvPhieuThu.DataSource = dsPhieuThue.ToList();
         }
 
         private CPhieuThuePhong timPTP(string ma) {
